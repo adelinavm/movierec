@@ -1,0 +1,151 @@
+tconst,title,year,genres,rating,numVotes
+tt0111161,The Shawshank Redemption,1994,Drama,9.3,3055430
+tt0068646,The Godfather,1972,"Crime, Drama",9.2,2133103
+tt0071562,The Godfather Part II,1974,"Crime, Drama",9,1435266
+tt0468569,The Dark Knight,2008,"Action, Crime, Drama, Thriller",9,3030568
+tt0050083,12 Angry Men,1957,"Crime, Drama",9,930783
+tt0108052,Schindler's List,1993,"Biography, Drama, History",9,1529065
+tt0167260,The Lord of the Rings: The Return of the King,2003,"Adventure, Drama, Fantasy",9,2084986
+tt0110912,Pulp Fiction,1994,"Crime, Drama",8.8,2342639
+tt0060196,"The Good, the Bad and the Ugly",1966,"Adventure, Drama, Western",8.8,857639
+tt0120737,The Lord of the Rings: The Fellowship of the Ring,2001,"Adventure, Drama, Fantasy",8.9,2115205
+tt0137523,Fight Club,1999,"Crime, Drama, Thriller",8.8,2474648
+tt0109830,Forrest Gump,1994,"Drama, Romance",8.8,2387268
+tt1375666,Inception,2010,"Action, Adventure, Sci-Fi, Thriller",8.8,2693007
+tt0167261,The Lord of the Rings: The Two Towers,2002,"Adventure, Drama, Fantasy",8.8,1879444
+tt0080684,Star Wars: Episode V - The Empire Strikes Back,1980,"Action, Adventure, Fantasy, Sci-Fi",8.7,1447991
+tt0133093,The Matrix,1999,"Action, Sci-Fi",8.7,2161901
+tt0099685,Goodfellas,1990,"Biography, Crime, Drama",8.7,1330902
+tt0073486,One Flew Over the Cuckoo's Nest,1975,Drama,8.7,1120589
+tt0047478,Seven Samurai,1954,"Action, Drama",8.6,386188
+tt0114369,Se7en,1995,"Crime, Drama, Mystery, Thriller",8.6,1917778
+tt0038650,It's a Wonderful Life,1946,"Drama, Family, Fantasy, Romance",8.6,529211
+tt0102926,The Silence of the Lambs,1991,"Crime, Drama, Horror, Thriller",8.6,1641525
+tt0076759,Star Wars: Episode IV - A New Hope,1977,"Action, Adventure, Fantasy, Sci-Fi",8.6,1515192
+tt0317248,City of God,2002,"Crime, Drama",8.6,839800
+tt0118799,Life Is Beautiful,1997,"Comedy, Drama, Romance, War",8.6,780814
+tt0114814,The Usual Suspects,1995,"Crime, Drama, Mystery, Thriller",8.5,1192925
+tt0245429,Spirited Away,2001,"Animation, Adventure, Family, Fantasy, Mystery",8.6,914352
+tt0120815,Saving Private Ryan,1998,"Drama, War",8.6,1574659
+tt0110413,Léon: The Professional,1994,"Action, Crime, Drama, Thriller",8.5,1306198
+tt0816692,Interstellar,2014,"Adventure, Drama, Sci-Fi",8.7,2355902
+tt0120689,The Green Mile,1999,"Crime, Drama, Fantasy, Mystery",8.6,1490797
+tt0056058,Harakiri,1962,"Drama, Mystery",8.6,80478
+tt0120586,American History X,1998,"Crime, Drama",8.5,1233998
+tt0027977,Modern Times,1936,"Comedy, Drama, Romance",8.5,274014
+tt0054215,Psycho,1960,"Drama, Horror, Mystery, Thriller",8.5,754960
+tt0021749,City Lights,1931,"Comedy, Drama, Romance",8.5,207708
+tt0253474,The Pianist,2002,"Biography, Drama, Music, War",8.5,971204
+tt2582802,Whiplash,2014,"Drama, Music",8.5,1079429
+tt1675434,The Intouchables,2011,"Comedy, Drama",8.5,981684
+tt0172495,Gladiator,2000,"Action, Adventure, Drama",8.5,1766226
+tt0482571,The Prestige,2006,"Drama, Mystery, Sci-Fi, Thriller",8.5,1519549
+tt0407887,The Departed,2006,"Crime, Drama, Thriller",8.5,1492498
+tt2584384,Jojo Rabbit,2019,"Comedy, Drama, War",7.9,468915
+tt0034583,Casablanca,1942,"Drama, Romance, War",8.5,633906
+tt0090605,Aliens,1986,"Action, Adventure, Horror, Sci-Fi, Thriller",8.4,810992
+tt1853728,Django Unchained,2012,"Drama, Western",8.5,1797412
+tt0910970,WALL·E,2008,"Animation, Adventure, Family, Sci-Fi",8.4,1265276
+tt4154756,Avengers: Infinity War,2018,"Action, Adventure, Sci-Fi",8.4,1293083
+tt4633694,Spider-Man: Into the Spider-Verse,2018,"Animation, Action, Adventure, Comedy, Family, Fantasy, Sci-Fi",8.4,734882
+tt0057012,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb,1964,"Comedy, War",8.3,539253
+tt0364569,Oldboy,2003,N/A,N/A,0
+tt0088763,N/A,N/A,N/A,N/A,0
+tt1345836,N/A,N/A,N/A,N/A,0
+tt0169547,N/A,N/A,N/A,N/A,0
+tt4154796,N/A,N/A,N/A,N/A,0
+tt0078788,N/A,N/A,N/A,N/A,0
+tt0209144,N/A,N/A,N/A,N/A,0
+tt0053125,N/A,N/A,N/A,N/A,0
+tt0032553,N/A,N/A,N/A,N/A,0
+tt0064116,N/A,N/A,N/A,N/A,0
+tt0180093,N/A,N/A,N/A,N/A,0
+tt0110357,N/A,N/A,N/A,N/A,0
+tt0082971,N/A,N/A,N/A,N/A,0
+tt1187043,N/A,N/A,N/A,N/A,0
+tt8267604,N/A,N/A,N/A,N/A,0
+tt0078748,N/A,N/A,N/A,N/A,0
+tt7286456,N/A,N/A,N/A,N/A,0
+tt0095765,N/A,N/A,N/A,N/A,0
+tt0022100,N/A,N/A,N/A,N/A,0
+tt0043014,N/A,N/A,N/A,N/A,0
+tt0198781,N/A,N/A,N/A,N/A,0
+tt0050825,N/A,N/A,N/A,N/A,0
+tt0081505,N/A,N/A,N/A,N/A,0
+tt0086879,N/A,N/A,N/A,N/A,0
+tt0093058,N/A,N/A,N/A,N/A,0
+tt1205489,N/A,N/A,N/A,N/A,0
+tt0914863,N/A,N/A,N/A,N/A,0
+tt0057565,N/A,N/A,N/A,N/A,0
+tt0361748,N/A,N/A,N/A,N/A,0
+tt0056172,N/A,N/A,N/A,N/A,0
+tt0338013,N/A,N/A,N/A,N/A,0
+tt0062622,N/A,N/A,N/A,N/A,0
+tt0033467,N/A,N/A,N/A,N/A,0
+tt0070735,N/A,N/A,N/A,N/A,0
+tt2106476,N/A,N/A,N/A,N/A,0
+tt0119698,N/A,N/A,N/A,N/A,0
+tt0017136,N/A,N/A,N/A,N/A,0
+tt0045152,N/A,N/A,N/A,N/A,0
+tt0112573,N/A,N/A,N/A,N/A,0
+tt0040522,N/A,N/A,N/A,N/A,0
+tt10872600,N/A,N/A,N/A,N/A,0
+tt0051201,N/A,N/A,N/A,N/A,0
+tt0075314,N/A,N/A,N/A,N/A,0
+tt0056172,N/A,N/A,N/A,N/A,0
+tt0091251,N/A,N/A,N/A,N/A,0
+tt0012349,N/A,N/A,N/A,N/A,0
+tt0042192,N/A,N/A,N/A,N/A,0
+tt0032551,N/A,N/A,N/A,N/A,0
+tt0071315,N/A,N/A,N/A,N/A,0
+tt0477348,N/A,N/A,N/A,N/A,0
+tt0082096,N/A,N/A,N/A,N/A,0
+tt1187043,N/A,N/A,N/A,N/A,0
+tt8267604,N/A,N/A,N/A,N/A,0
+tt0071853,N/A,N/A,N/A,N/A,0
+tt0087843,N/A,N/A,N/A,N/A,0
+tt0086250,N/A,N/A,N/A,N/A,0
+tt0095016,N/A,N/A,N/A,N/A,0
+tt0198781,N/A,N/A,N/A,N/A,0
+tt0114709,N/A,N/A,N/A,N/A,0
+tt0107290,N/A,N/A,N/A,N/A,0
+tt1838556,N/A,N/A,N/A,N/A,0
+tt0395169,N/A,N/A,N/A,N/A,0
+tt0053198,N/A,N/A,N/A,N/A,0
+tt0095327,N/A,N/A,N/A,N/A,0
+tt0048473,N/A,N/A,N/A,N/A,0
+tt0079470,N/A,N/A,N/A,N/A,0
+tt0208092,N/A,N/A,N/A,N/A,0
+tt0268978,N/A,N/A,N/A,N/A,0
+tt0097576,N/A,N/A,N/A,N/A,0
+tt0317705,N/A,N/A,N/A,N/A,0
+tt0025316,N/A,N/A,N/A,N/A,0
+tt0015864,N/A,N/A,N/A,N/A,0
+tt0031679,N/A,N/A,N/A,N/A,0
+tt0105695,N/A,N/A,N/A,N/A,0
+tt0118849,N/A,N/A,N/A,N/A,0
+tt0032976,N/A,N/A,N/A,N/A,0
+tt0033870,N/A,N/A,N/A,N/A,0
+tt0061512,N/A,N/A,N/A,N/A,0
+tt0117951,N/A,N/A,N/A,N/A,0
+tt0372784,N/A,N/A,N/A,N/A,0
+tt0036868,N/A,N/A,N/A,N/A,0
+tt0382932,N/A,N/A,N/A,N/A,0
+tt0089881,N/A,N/A,N/A,N/A,0
+tt0055630,N/A,N/A,N/A,N/A,0
+tt0070047,N/A,N/A,N/A,N/A,0
+tt0086190,N/A,N/A,N/A,N/A,0
+tt0032138,N/A,N/A,N/A,N/A,0
+tt0059578,N/A,N/A,N/A,N/A,0
+tt0120735,N/A,N/A,N/A,N/A,0
+tt0045152,N/A,N/A,N/A,N/A,0
+tt0044741,N/A,N/A,N/A,N/A,0
+tt0374546,N/A,N/A,N/A,N/A,0
+tt0096283,N/A,N/A,N/A,N/A,0
+tt0040522,N/A,N/A,N/A,N/A,0
+tt0053291,N/A,N/A,N/A,N/A,0
+tt0119217,N/A,N/A,N/A,N/A,0
+tt0077416,N/A,N/A,N/A,N/A,0
+tt0112641,N/A,N/A,N/A,N/A,0
+tt0246578,N/A,N/A,N/A,N/A,0
+tt0266543,N/A,N/A,N/A,N/A,0
