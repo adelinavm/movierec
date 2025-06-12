@@ -15,7 +15,7 @@ df = load_data()
 st.title("🎬 IMDb Movie Dashboard")
 
 # Sidebar - Filters
-st.sidebar.header("🔎 Filter Film")
+st.sidebar.header("Filter Film")
 years = st.sidebar.slider("Tahun Rilis", int(df['year'].min()), int(df['year'].max()), (2000, 2020))
 rating_min = st.sidebar.slider("Minimum Rating", 0.0, 10.0, 7.0, 0.1)
 genre_input = st.sidebar.text_input("Cari Genre", "Drama")
@@ -28,11 +28,11 @@ filtered = df[
     (df['genres'].str.contains(genre_input, case=False))
 ]
 
-st.subheader("📄 Film Sesuai Filter")
+st.subheader("Film Sesuai Filter")
 st.dataframe(filtered[['title', 'year', 'genres', 'rating', 'numVotes']], use_container_width=True)
 
 # Heatmap Genre vs Rating
-st.subheader("📊 Rata-Rata Rating per Genre")
+st.subheader("Rata-Rata Rating per Genre")
 exploded = df.dropna(subset=['genres']).copy()
 exploded['genres'] = exploded['genres'].str.split(", ")
 exploded = exploded.explode("genres")
@@ -48,15 +48,41 @@ ax.set_title("Heatmap Genre vs Rating")
 st.pyplot(fig)
 
 # Rekomendasi berdasarkan Mood
-st.subheader("🤖 Rekomendasi Film Berdasarkan Mood")
-mood = st.selectbox("Pilih Mood Kamu", ["Petualangan", "Cinta", "Tegang", "Lucu"])
-
 mood_map = {
     "Petualangan": ["Adventure", "Action"],
     "Cinta": ["Romance", "Drama"],
     "Tegang": ["Thriller", "Crime", "Mystery"],
     "Lucu": ["Comedy"]
 }
+mood = st.selectbox("Pilih Mood Kamu", list(mood_map.keys()))
+target_genres = mood_map[mood]
+
+recommend = exploded[exploded['genres'].isin(target_genres)]
+recommend = recommend.sort_values(by="rating", ascending=False).drop_duplicates("title")
+
+st.markdown(f"Top rekomendasi untuk mood **{mood}**:")
+st.table(recommend[['title', 'year', 'genres', 'rating']].head(10))
+
+
+# Filter: Tahun, Rating, Genre
+years = st.sidebar.slider("Tahun Rilis", int(df['year'].min()), int(df['year'].max()), (2010, 2020))
+rating_min = st.sidebar.slider("Minimum Rating", 0.0, 10.0, 7.0, 0.1)
+genre_input = st.sidebar.text_input("Cari Genre", "Drama")
+
+filtered = df[
+    (df['year'].between(years[0], years[1])) &
+    (df['rating'] != "N/A") &
+    (df['rating'].astype(float) >= rating_min) &
+    (df['genres'].str.contains(genre_input, case=False))
+]
+st.dataframe(filtered[['title', 'year', 'genres', 'rating', 'numVotes']])
+
+# Film Trending Tahun Ini
+st.subheaderFilm Trending Tahun Ini")
+top_year = df[df['year'] == df['year'].max()]
+top_year = top_year[top_year['rating'] != "N/A"]
+top_year['rating'] = top_year['rating'].astype(float)
+st.table(top_year.sort_values(by='numVotes', ascending=False)[['title', 'year', 'rating', 'numVotes']].head(10))
 
 target_genres = mood_map[mood]
 recommend = exploded[exploded['genres'].isin(target_genres)]
@@ -66,4 +92,4 @@ st.markdown(f"Top rekomendasi untuk mood **{mood}**:")
 st.table(recommend[['title', 'year', 'genres', 'rating']].head(10))
 
 st.markdown("---")
-st.caption("Built with ❤️ by your data assistant")
+st.caption("Built with ❤️ by 1 Adik 4 Kakak")
