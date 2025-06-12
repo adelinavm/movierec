@@ -12,7 +12,7 @@ def load_data():
 
 df = load_data()
 
-st.title("🎬 IMDb Movie Dashboard")
+st.title("IMDb Movie Dashboard")
 
 # Sidebar - Filters
 st.sidebar.header("Filter Film")
@@ -78,7 +78,7 @@ filtered = df[
 st.dataframe(filtered[['title', 'year', 'genres', 'rating', 'numVotes']])
 
 # Film Trending Tahun Ini
-st.subheaderFilm Trending Tahun Ini")
+st.subheader("Film Trending Tahun Ini")
 top_year = df[df['year'] == df['year'].max()]
 top_year = top_year[top_year['rating'] != "N/A"]
 top_year['rating'] = top_year['rating'].astype(float)
@@ -92,4 +92,4 @@ st.markdown(f"Top rekomendasi untuk mood **{mood}**:")
 st.table(recommend[['title', 'year', 'genres', 'rating']].head(10))
 
 st.markdown("---")
-st.caption("Built with ❤️ by 1 Adik 4 Kakak")
+st.caption("Built with ❤ by 1 Adik 4 Kakak")
