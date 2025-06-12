@@ -15,7 +15,7 @@ df = load_data()
 st.title("🎬 IMDb Movie Dashboard")
 
 # Sidebar - Filters
-st.sidebar.header("Filter Film")
+st.sidebar.header("🔎 Filter Film")
 years = st.sidebar.slider("Tahun Rilis", int(df['year'].min()), int(df['year'].max()), (2000, 2020))
 rating_min = st.sidebar.slider("Minimum Rating", 0.0, 10.0, 7.0, 0.1)
 genre_input = st.sidebar.text_input("Cari Genre", "Drama")
@@ -28,11 +28,11 @@ filtered = df[
     (df['genres'].str.contains(genre_input, case=False))
 ]
 
-st.subheader("Film Sesuai Filter")
+st.subheader("📄 Film Sesuai Filter")
 st.dataframe(filtered[['title', 'year', 'genres', 'rating', 'numVotes']], use_container_width=True)
 
 # Heatmap Genre vs Rating
-st.subheader("Rata-Rata Rating per Genre")
+st.subheader("📊 Rata-Rata Rating per Genre")
 exploded = df.dropna(subset=['genres']).copy()
 exploded['genres'] = exploded['genres'].str.split(", ")
 exploded = exploded.explode("genres")
@@ -78,7 +78,7 @@ filtered = df[
 st.dataframe(filtered[['title', 'year', 'genres', 'rating', 'numVotes']])
 
 # Film Trending Tahun Ini
-st.subheaderFilm Trending Tahun Ini")
+st.subheader("🔥 Film Trending Tahun Ini")
 top_year = df[df['year'] == df['year'].max()]
 top_year = top_year[top_year['rating'] != "N/A"]
 top_year['rating'] = top_year['rating'].astype(float)
