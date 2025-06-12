@@ -63,20 +63,6 @@ recommend = recommend.sort_values(by="rating", ascending=False).drop_duplicates(
 st.markdown(f"Top rekomendasi untuk mood **{mood}**:")
 st.table(recommend[['title', 'year', 'genres', 'rating']].head(10))
 
-
-# Filter: Tahun, Rating, Genre
-years = st.sidebar.slider("Tahun Rilis", int(df['year'].min()), int(df['year'].max()), (2010, 2020))
-rating_min = st.sidebar.slider("Minimum Rating", 0.0, 10.0, 7.0, 0.1)
-genre_input = st.sidebar.text_input("Cari Genre", "Drama")
-
-filtered = df[
-    (df['year'].between(years[0], years[1])) &
-    (df['rating'] != "N/A") &
-    (df['rating'].astype(float) >= rating_min) &
-    (df['genres'].str.contains(genre_input, case=False))
-]
-st.dataframe(filtered[['title', 'year', 'genres', 'rating', 'numVotes']])
-
 # Film Trending Tahun Ini
 st.subheader("🔥 Film Trending Tahun Ini")
 top_year = df[df['year'] == df['year'].max()]
