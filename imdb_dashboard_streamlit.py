@@ -3,6 +3,8 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
+st.set_page_config(layout="wide")
+
 # Load data
 @st.cache_data
 def load_data():
@@ -10,7 +12,6 @@ def load_data():
 
 df = load_data()
 
-st.set_page_config(layout="wide")
 st.title("🎬 IMDb Movie Dashboard")
 
 # Sidebar - Filters
